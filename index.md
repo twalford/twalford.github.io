@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-* * *
 # Projects in python
-## Discord Bot
+## [Discord Bot](https://github.com/twalford/discordbot).
 The bot started off as a pokedex (a list of all pokemon) for a discord server of three people. You would give the bot a number range and it would give you back the pokemon IDs within that range.
 
 ![dexr](https://user-images.githubusercontent.com/20815153/52334640-4a14b000-2a54-11e9-888c-d5138874d791.PNG)
@@ -34,7 +33,6 @@ Other features of the bot include:
 - Insert your own character into a copypasta
 - Various gifs and video links
 
-* * *
 ## Schem Slicer
 
 
@@ -46,39 +44,30 @@ Other features of the bot include:
 
 ![1](https://user-images.githubusercontent.com/20815153/52335928-ba710080-2a57-11e9-9c5b-ed018538e748.png)
 
-* * *
 ## Pixel Spline
 
 
 ![Capture](https://user-images.githubusercontent.com/20815153/51453570-461a3a00-1d94-11e9-88dc-eb1c8e3289d2.png)
 
-* * *
 # Programming with OLC (C++)
 ## olcEyes
 
-* * *
 ## olcDungeon
 
-* * *
 ## olcGuiDemo
 
-* * *
 ## Nonogram Solver
 
-* * *
 ## Tetris
 
-* * *
 # More C++ projects
 ## Sudoku Solver
 
-* * *
 ## MC Item Tree
 
-* * *
 ## PNN Bot
 
-* * *
+***
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
