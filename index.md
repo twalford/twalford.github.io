@@ -2,7 +2,7 @@
 layout: default
 ---
 # Projects in python
-## [Discord Bot](https://github.com/twalford/discordbot).
+## [Discord Bot](https://github.com/twalford/discordbot)
 The bot started off as a pokedex (a list of all pokemon) for a discord server of three people. You would give the bot a number range and it would give you back the pokemon IDs within that range.
 
 ![dexr](https://user-images.githubusercontent.com/20815153/52334640-4a14b000-2a54-11e9-888c-d5138874d791.PNG)
