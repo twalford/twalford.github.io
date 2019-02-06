@@ -1,6 +1,44 @@
 ---
 layout: default
+title: Thomas Walford
 ---
+* * *
+# Projects in python
+## Discord Bot
+
+* * *
+## Schem Slicer
+
+* * *
+## Pixel Spline
+
+* * *
+# Programming with OLC (C++)
+## olcEyes
+
+* * *
+## olcDungeon
+
+* * *
+## olcGuiDemo
+
+* * *
+## Nonogram Solver
+
+* * *
+## Tetris
+
+* * *
+# More C++ projects
+## Sudoku Solver
+
+* * *
+## MC Item Tree
+
+* * *
+## PNN Bot
+
+* * *
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
