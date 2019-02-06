@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Thomas Walford
 ---
 * * *
 # Projects in python
