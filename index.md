@@ -49,10 +49,12 @@ This was the first time I experimented with command line arguments in a program 
 - Generate the images with its index in the corner.
 - Include a grid on each image.
 - Change the background colour on the images.
- 
-![out](https://user-images.githubusercontent.com/20815153/52335919-b644e300-2a57-11e9-89a3-392593f6ccb6.PNG)
- 
+
 When the program has finished running, the user will be left with a folder full of images depicting the slices of the schematic.
+
+![out](https://user-images.githubusercontent.com/20815153/52335919-b644e300-2a57-11e9-89a3-392593f6ccb6.PNG)
+
+Here is a look at one of the images in its entirety. In this example I used a schematic that when created in-game turns into pixel art (a 128x128 portrait of a friend).
 
 ![1](https://user-images.githubusercontent.com/20815153/52335928-ba710080-2a57-11e9-9c5b-ed018538e748.png)
 
