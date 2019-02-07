@@ -14,43 +14,52 @@ It was a simple idea and it worked well enough for us. We quickly grew bored of 
 Every gif-producing command would cost a certain amount of `Ponks` and the bot would receive them in a transaction. We needed a way to get the currency back so I added a Pinata event that would trigger once the bot had reach a certain amount. It required all members to use the `.smack` command, dropping a random percentage of `Ponks` on the ground with every wave of smacks.
 
 Other features of the bot include:
-- Note system
-  - Add a note to the system
-  - Ask the bot to pick a random note
-  - Purge (snap) half the notes
-- Oxford Dictionary API
-  - Ask the bot to define a word
+- Note system:
+  - Add a note to the system.
+  - Ask the bot to pick a random note.
+  - Purge (snap) half the notes.
+- Oxford Dictionary API:
+  - Ask the bot to define a word.
 - Minecraft Server Status API
-  - Show all online players on a certain server
-- Maps of the world
-  - Ask the bot to show a map of a country or region
-- Random Emoji
-  - Ask the bot to pick up to 10 random emojis
-- Flip a coin
-- Roll a dice
-- Guess a number between 1 and 100 for the chance to win `Ponks`
-- Slap each other to make them drop some `Ponks`
-- Insert your own character into a copypasta
-- Various gifs and video links
+  - Show all online players on a certain server.
+- Maps of the world:
+  - Ask the bot to show a map of a country or region.
+- Random Emoji:
+  - Ask the bot to pick up to 10 random emojis.
+- Flip a coin.
+- Roll a dice.
+- Guess a number between 1 and 100 for the chance to win `Ponks`.
+- Slap each other to make them drop some `Ponks`.
+- Insert your own character into a copypasta.
+- Various gifs and video links.
 
 &nbsp;
 
 &nbsp;
 * * *
-## Schem Slicer
-
+## [Schem Slicer](https://github.com/twalford/schem-slicer)
+Schem Slicer is a program that slices up `.schematic` files and turns them into images. A `.schematic` file is created by third-party programs that can store sections of a Minecraft world. The purpose of Schem Slicer was to provide a much more manageable way to copy and reference parts of a schematic.
 
 ![slicer](https://user-images.githubusercontent.com/20815153/52335924-b80ea680-2a57-11e9-988c-6e9dbdfe776c.PNG)
 
-
+This was the first time I experimented with command line arguments in a program and I ended up adding a few options for the user to use:
+- Choose the axis to slice along.
+- Automatically crop the image.
+- Flip the image.
+- Generate the images with its index in the corner.
+- Include a grid on each image.
+- Change the background colour on the images.
+ 
 ![out](https://user-images.githubusercontent.com/20815153/52335919-b644e300-2a57-11e9-89a3-392593f6ccb6.PNG)
-
+ 
+When the program has finished running, the user will be left with a folder full of images depicting the slices of the schematic.
 
 ![1](https://user-images.githubusercontent.com/20815153/52335928-ba710080-2a57-11e9-9c5b-ed018538e748.png)
 
+&nbsp;
 
-
-
+&nbsp;
+* * *
 ## Pixel Spline
 
 
@@ -58,44 +67,68 @@ Other features of the bot include:
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 # Programming with OLC (C++)
 ## olcEyes
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## olcDungeon
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## olcGuiDemo
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## Nonogram Solver
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## Tetris
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 # More C++ projects
 ## Sudoku Solver
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## MC Item Tree
 
 
 
+&nbsp;
 
+&nbsp;
+* * *
 ## PNN Bot
 
 ***
