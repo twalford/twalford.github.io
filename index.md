@@ -33,6 +33,10 @@ Other features of the bot include:
 - Insert your own character into a copypasta
 - Various gifs and video links
 
+&nbsp;
+
+&nbsp;
+* * *
 ## Schem Slicer
 
 
@@ -44,26 +48,53 @@ Other features of the bot include:
 
 ![1](https://user-images.githubusercontent.com/20815153/52335928-ba710080-2a57-11e9-9c5b-ed018538e748.png)
 
+
+
+
 ## Pixel Spline
 
 
 ![Capture](https://user-images.githubusercontent.com/20815153/51453570-461a3a00-1d94-11e9-88dc-eb1c8e3289d2.png)
 
+
+
+
 # Programming with OLC (C++)
 ## olcEyes
 
+
+
+
 ## olcDungeon
+
+
+
 
 ## olcGuiDemo
 
+
+
+
 ## Nonogram Solver
 
+
+
+
 ## Tetris
+
+
+
 
 # More C++ projects
 ## Sudoku Solver
 
+
+
+
 ## MC Item Tree
+
+
+
 
 ## PNN Bot
 
