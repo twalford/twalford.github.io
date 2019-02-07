@@ -63,11 +63,9 @@ Here is a look at one of the images in its entirety. In this example I used a sc
 &nbsp;
 * * *
 ## Pixel Spline
-
+This reasoning behind this project was pretty simple. I wanted to be able to generate pixelated curves easily but I could not find any online so I created my own. This program uses TkInter and python. The user puts in a bunch of points and the program creates a spline. That's all there is to it.
 
 ![Capture](https://user-images.githubusercontent.com/20815153/51453570-461a3a00-1d94-11e9-88dc-eb1c8e3289d2.png)
-
-
 
 &nbsp;
 
