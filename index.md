@@ -74,11 +74,17 @@ This reasoning behind this project was pretty simple. I wanted to be able to gen
 # Programming with OLC (C++)
 "OLC" a.k.a `Javidx9` is the creator of a small opensource engine written in C++ called olcPixelGameEngine. I have been following along with his development of the engine and creating some projects of my own with it.
 
-## olcEyes
+## [olcEyes](https://github.com/twalford/olcEyes)
 This is a proof of concept main menu of a video game where the eyes follow the cursor around the screen and shimmer. 
 
 ![olceyesgif](https://user-images.githubusercontent.com/20815153/52453869-6708ca80-2b9d-11e9-8b94-284efb7997c0.gif)
 
+The eye is split into three parts:
+- The eye socket
+- The iris
+- The pupil
+
+The socket stays still while the iris and pupil move in relation to the cursor. The iris and pupil are seperated because I wanted them to move at slightly different amounts to give a sublte 3D effect. All three parts are represented as a 2D array of floats. The shimmering effect comes from a sine function of the elapsed time of the program combined with a randon number generator that sets the size of each square on every frame.
 
 &nbsp;
 
