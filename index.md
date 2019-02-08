@@ -72,8 +72,12 @@ This reasoning behind this project was pretty simple. I wanted to be able to gen
 &nbsp;
 * * *
 # Programming with OLC (C++)
-## olcEyes
+"OLC" a.k.a `Javidx9` is the creator of a small opensource engine written in C++ called olcPixelGameEngine. I have been following along with his development of the engine and creating some projects of my own with it.
 
+## olcEyes
+This is a proof of concept main menu of a video game where the eyes follow the cursor around the screen and shimmer. 
+
+![olceyesgif](https://user-images.githubusercontent.com/20815153/52453869-6708ca80-2b9d-11e9-8b94-284efb7997c0.gif)
 
 
 &nbsp;
