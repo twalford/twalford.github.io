@@ -63,7 +63,7 @@ Here is a look at one of the images in its entirety. In this example I used a sc
 &nbsp;
 * * *
 ## [Pixel Spline](https://github.com/twalford/pixel-splines)
-This reasoning behind this project was pretty simple. I wanted to be able to generate pixelated curves easily but I could not find any online so I created my own. This program uses TkInter and python. The user puts in a bunch of points and the program creates a spline. That's all there is to it.
+The reasoning behind this project was pretty simple. I wanted to be able to generate pixelated curves easily but I could not find any online so I created my own. This program uses TkInter and python. The user puts in a bunch of points and the program creates a spline. That's all there is to it.
 
 ![Capture](https://user-images.githubusercontent.com/20815153/51453570-461a3a00-1d94-11e9-88dc-eb1c8e3289d2.png)
 
@@ -90,7 +90,32 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 
 &nbsp;
 * * *
-## olcDungeon
+## [olcDungeon](https://github.com/twalford/olc-dungeon)
+olcDungeon was my attempt to clone `Redungeon` - an endless action platformer game published by nitrome. The aim of the game is to progress forward as far as you can without falling off the platforms and into the darkness below. The game generates a path of `dungeon modules` for the player to navigate: some containing walls to walk around, ice to slide across, fire to avoid, and portals to teleport to. Below is an example of gameplay at its current state.
+
+![dungeondemo](https://user-images.githubusercontent.com/20815153/52529907-5b5d0580-2d4f-11e9-8ea4-25a413ceb849.gif)
+
+Much like any other video game in existence, I needed a testing level during development where I could test of all of the implemented features and tiles. On the left side of the level you can see the `WEAK GROUND` that starts to fall apart when the player stands on it. Directly next to that are the different coloured portals which are one-way teleports. In the middle there are pots of gold which crack and then break when the player runs into them. That is how the player collects coins (which serve no purpose in my clone). There is also a `WEB` tile which if the player steps onto, requires them to press a random sequence of keys to escape.
+
+![dungeontestlevel](https://user-images.githubusercontent.com/20815153/52529905-5ac46f00-2d4f-11e9-925d-d08714fc44d2.gif)
+
+This game was the most complicated project I had attempted so far (at the time) and it required me to also make a level editor. To make this level editor I repurposed a sprite editor also made by Javidx9 in the same engine. I transformed this sprite editor into a `DUNGEON MODULE` editor and created my own file type `.dumo` (short for Dungeon Module). The editor allows the user to load and save these `.dumo` files to disk with the F9 and F10 keys. The user can edit the modules by selecting a tile type and placing it in the module. Here is an example.
+
+![dumoplacement](https://user-images.githubusercontent.com/20815153/52529908-5b5d0580-2d4f-11e9-80d5-a4fffbf0358d.gif)
+
+The tiles are selected using number keys 1 to 9. There are more than 9 tiles, so I split them into tabs or "sets" which can be selected with keys F1 to F4 as seen below. Notice the 4 dots in the top left representing the tabs.
+
+![dumotabs](https://user-images.githubusercontent.com/20815153/52529906-5b5d0580-2d4f-11e9-868b-2bd0cfee6644.gif)
+
+I also had to implement a way to make the module larger or smaller by deleting and inserting rows/columns. To do this the user can press `C` to activate cropping mode, in which a line of red boxes will appear. The orientation is changed with `V` and the user can insert on the green side with the `Insert` key, and delete the highlighted row/column with, you guessed it, the `Delete` key.
+
+![dumoinsert](https://user-images.githubusercontent.com/20815153/52529909-5bf59c00-2d4f-11e9-863e-bb417171c8fe.gif)
+
+&nbsp;
+
+&nbsp;
+* * *
+## [olcGuiDemo](https://github.com/twalford/olcGuiDemo)
 
 
 
@@ -98,7 +123,7 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 
 &nbsp;
 * * *
-## olcGuiDemo
+## [Nonogram Solver](https://github.com/twalford/pgeHanjie)
 
 
 
@@ -106,15 +131,7 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 
 &nbsp;
 * * *
-## Nonogram Solver
-
-
-
-&nbsp;
-
-&nbsp;
-* * *
-## Tetris
+## [Tetris]()
 
 
 
@@ -123,7 +140,7 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 &nbsp;
 * * *
 # More C++ projects
-## Sudoku Solver
+## [Sudoku Solver]()
 
 
 
@@ -131,7 +148,7 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 
 &nbsp;
 * * *
-## MC Item Tree
+## [MC Item Tree](https://github.com/twalford/mc-raw-items)
 
 
 
@@ -139,7 +156,7 @@ The socket stays still while the iris and pupil move in relation to the cursor. 
 
 &nbsp;
 * * *
-## PNN Bot
+## [PNN Bot]()
 
 ***
 
