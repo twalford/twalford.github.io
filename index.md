@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Projects in python
 ## [Discord Bot](https://github.com/twalford/discordbot)
 The bot started off as a pokedex (a list of all pokemon) for a discord server of three people. You would give the bot a number range and it would give you back the pokemon IDs within that range.
@@ -197,10 +198,11 @@ And here is my finished version including:
 
 &nbsp;
 * * *
-# More C++ projects
-## [Sudoku Solver]()
+# More projects
+## [Sudoku Solver (C++)](https://github.com/twalford/Sudoku-Solver)
+I wrote this solver in 2017. It has two possible methods of solving - Logically(smart) and Brute Force(simple).
 
-
+![sudokusolves](https://user-images.githubusercontent.com/20815153/52557031-5a58d080-2e42-11e9-886a-adaf35e5fdc6.png)
 
 &nbsp;
 
