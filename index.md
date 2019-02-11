@@ -116,17 +116,67 @@ I also had to implement a way to make the module larger or smaller by deleting a
 &nbsp;
 * * *
 ## [olcGuiDemo](https://github.com/twalford/olcGuiDemo)
+This was a one-day project with the aim to create a window interface system with the following features:
+- Ability to create and delete windows.
+- Ability to drag windows.
+- Ability to resize windows.
+- Ability to pan all windows with the background.
+- Ability to select a window and bring it to the front.
 
+I was able to program all of the above and below is the result
+![windowsdemo](https://user-images.githubusercontent.com/20815153/52547079-b73f9100-2e18-11e9-856f-072c6bee1d7c.gif)
 
-
+I added a bonus feature that shows green lines on the edge of the screen when a window is dragged or panned out of sight. 
 &nbsp;
 
 &nbsp;
 * * *
 ## [Nonogram Solver](https://github.com/twalford/pgeHanjie)
+Nonograms are puzzles with number clues on the sides of a grid which indicated coloured squares and when coloured correctly, reveal a picture. I attempted to create a program to help solve the puzzles in the same way that I would by hand. The resulting program acts like a regular digital nonogram program where the user can solve like normal. Features of my program are:
+- Left click to fill in a square.
+- Right click to mark a dot.
+- Same click again to remove either of the above.
+- Press C to solve trivial columns
+- Press X to solve trivial rows.
+- Press R to reset.
 
+![nonoSolving](https://user-images.githubusercontent.com/20815153/52547507-62057e80-2e1c-11e9-8df2-8482eb6cb07a.gif)
 
-
+Puzzles clues are loaded by .txt files in the program directory, but the filename is currently hardcoded into the program. The clue file for the puzzle above looks like this:
+```html
+<cols>
+4
+6
+1,4,1
+7,4
+15
+8
+5
+5
+5
+5,1
+5,2
+9
+9
+8
+4
+<rows>
+1
+2
+4
+2,2,1
+5,1
+6,2
+15
+13
+10
+10
+10
+3,3
+3,3
+2,3
+3,4
+```
 &nbsp;
 
 &nbsp;
