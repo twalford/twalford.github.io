@@ -132,7 +132,7 @@ I added a bonus feature that shows green lines on the edge of the screen when a 
 &nbsp;
 * * *
 ## [Nonogram Solver](https://github.com/twalford/pgeHanjie)
-Nonograms are puzzles with number clues on the sides of a grid which indicated coloured squares and when coloured correctly, reveal a picture. I attempted to create a program to help solve the puzzles in the same way that I would by hand. The resulting program acts like a regular digital nonogram program where the user can solve like normal. Features of my program are:
+Nonograms are puzzles with number clues on the sides of a grid which indicate specific squares. When coloured correctly they reveal a picture. I attempted to create a program to help solve the puzzles in the same way that I would by hand. The resulting program acts like a regular nonogram program where the user can solve like normal. Usage of my program are as follows:
 - Left click to fill in a square.
 - Right click to mark a dot.
 - Same click again to remove either of the above.
@@ -142,7 +142,7 @@ Nonograms are puzzles with number clues on the sides of a grid which indicated c
 
 ![nonoSolving](https://user-images.githubusercontent.com/20815153/52547507-62057e80-2e1c-11e9-8df2-8482eb6cb07a.gif)
 
-Puzzles clues are loaded by .txt files in the program directory, but the filename is currently hardcoded into the program. The clue file for the puzzle above looks like this:
+Puzzles clues are loaded by .txt files in the program directory. Currently the filename is hardcoded into the program. The clue file for the puzzle above looks like this:
 ```html
 <cols>
 4
