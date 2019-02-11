@@ -181,9 +181,17 @@ Puzzles clues are loaded by .txt files in the program directory. Currently the f
 
 &nbsp;
 * * *
-## [Tetris]()
+## [Tetris](https://github.com/twalford/olcTetris)
+When Javidx9 released his new engine, I thought it would be a great idea to recreate his windows console tetris into a nice and colourful version. Here is his version which I started with.
 
+![oldtetris](https://user-images.githubusercontent.com/20815153/52553966-6f7d3180-2e39-11e9-9594-77ae7e43e185.PNG)
 
+And here is my finished version including:
+- Can see what the next piece is.
+- Can hold a piece.
+- Shows a ghost block.
+
+![newTetris](https://user-images.githubusercontent.com/20815153/52553992-86238880-2e39-11e9-848c-39d8ceffc021.gif)
 
 &nbsp;
 
