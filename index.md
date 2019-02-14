@@ -208,14 +208,30 @@ I wrote this solver in 2017. It has two possible methods of solving - Logically(
 
 &nbsp;
 * * *
-## [MC Item Tree](https://github.com/twalford/mc-raw-items)
+## PNN Bot
+PNN bot was one of my assignments for University where we had to develop an A.I to complete a game made by the professor.
+
+The aim of the game is to have the monster (green character) reach the princess (red character) while expending the least amount of health points. The blue characters are randomly placed rocks which the monster can choose to either eat them or go around them. 
+
+The monster has access to the level data, including a list of spawn points for the princess and locations of walls (but not rocks). It keeps track with its own version of the playing field and uses both Breadth First Search and a modified A* Search Algorithm to queue a combination of turns and forward steps to reach its target. As the monster moves it can "look" a certain distance (depending on the level) to uncover the fog and reveal any rocks that might be there.
+
+We were provided three levels in increasing difficulty to test our A.I on. The final test of the assignment was having all the student's A.Is compete for the title of most efficient. My bot placed 4th in the class of about 20 students, me and the three students above were all within 1% of each other.
+
+Here is my A.Is performance in real-time on a 3.4ghz i7 cpu.
 
 
+### Easy
 
-&nbsp;
+![pnneasy](https://user-images.githubusercontent.com/20815153/52763648-c15bcc80-3070-11e9-9238-1d4437bcd94d.gif)
 
-&nbsp;
-* * *
-## [PNN Bot]()
+### Medium
+
+![pnnmedium](https://user-images.githubusercontent.com/20815153/52763650-c1f46300-3070-11e9-86a8-67eb2868946c.gif)
+
+### Hard
+
+![pnnhard](https://user-images.githubusercontent.com/20815153/52763649-c1f46300-3070-11e9-8542-d2f2fb588de4.gif)
+
+I cannot upload the code to this project because the Uni may recycle the assignment ;) Hello SIT255 if you found me.
 
 ***
