@@ -2,6 +2,11 @@
 layout: default
 page.title: Thomas Walford
 ---
+
+
+Welcome to my site where I put some of the things I make. Here they are, enjoy :)
+
+
 # Hitomezashi Stitch Pattern Generator
 Using Godot Engine, I wrote up some code to generate some neat patterns.
 
