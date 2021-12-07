@@ -2,6 +2,108 @@
 layout: default
 ---
 
+# Hitomezashi Stitch Pattern Generator
+Using Godot Engine, I wrote up some code to generate some neat patterns.
+
+```gdscript
+#horizontal pass
+#Ranges from y = 0-grid_padding, to y = grid_height, with a step interval of grid_spacing
+for y in range(0-grid_padding, grid_height, grid_spacing):
+
+	#Sets up the random offset that this row will have, it will be either 0 or grid_spacing
+	var offset = randi()%2 * grid_spacing-grid_padding
+  
+	#Ranges from x = offset, to x = grid_width, with a step interval of grid_spacing*2
+	#Multiplying grid_spacing by 2 because we need step over the line AND the gap afterwards.
+	for x in range(offset, grid_width, grid_spacing*2):
+		
+		#Draws a horizontal line (y stays the same) of the length of the grid space
+		#Color is white and width is 2px
+		draw_line(Vector2(x,y), Vector2(x+grid_spacing,y), Color(1,1,1), 2)
+		
+#vertical pass
+for x in range(0-grid_padding, grid_width, grid_spacing):
+	var offset = randi()%2 * grid_spacing-grid_padding
+	for y in range(offset, grid_height, grid_spacing*2):
+		draw_line(Vector2(x,y), Vector2(x,y+grid_spacing), Color(1,1,1), 2)
+```
+
+![alt text](https://github.com/twalford/twalford.github.io/blob/master/Hitomezashi_Stitch.png)
+And here is my attempt to generate a 3-axis version
+```gdscript
+#Horizontal pass
+#The outer loop uses a while loop because Range only works with integers and i'll be using floats.
+
+#A bool which will flip every loop
+var use_spacer = false
+
+#From j = 0, to grid height
+var j = 0
+while (j < grid_height):
+	
+	#Every second row will need to use this spacer offset
+	var spacer = grid_spacing/2
+	
+	#Sets up the random offset that this row will have, it will be either 0 or grid_spacing
+	var offset = randi()%2 * grid_spacing
+	
+	#Ranges from the start of each row using the spacer and offset
+	#casting use_spacer from bool to an integer thats either 0 or 1
+	for n in range((int(use_spacer)*spacer)+offset, grid_width, grid_spacing*2):
+		
+		#Draws a horizontal line (j stays the same) of the length of the grid space
+		#Color is white and width is 2px
+		draw_line(Vector2(n,j), Vector2(n+grid_spacing,j), Color(1,1,1), 2)
+		
+	#The next row will be sin(60) (approximately 0.866) of a unit lower
+	j = j + sine_60*grid_spacing
+	
+	#flip the bool
+	use_spacer = !use_spacer
+  
+#backslash pass
+#I had to hardcode some values here using trial and error
+#We start from just outside top right of the screen making sure that x is a multiple of the grid_spacing
+#Range from the right side and much past the left side as we will be drawing at an angle and want to cover the whole window
+for i in range(3008,-800,-grid_spacing):
+	
+	#Set up the random offset
+	var offset = randi()%2 * grid_spacing
+	
+	#As we are drawing diagonal lines, both x and y will be constantly changing
+	#x starts from i plus its offset if active
+	var x = i + cosine_60*offset
+	
+	#y starts from 0 plus its offset if active
+	var y = sine_60*offset
+	
+	#Until y reaches the bottom of the window
+	while(y < grid_height):
+		
+		#Draw the diagonal line
+		#If x,y are 0,0. The line goes to cos(60),sin(60)
+		draw_line(Vector2(x,y), Vector2(x+cosine_60*grid_spacing,y+sine_60*grid_spacing),Color(1,1,1),2)
+		
+		#The amount x increases is cos(60) or 0.5 of the grid_space
+		x = x + cosine_60*grid_spacing*2
+		
+		#The amount y increases is sin(60) or about 0.866 of the grid_space
+		y = y + sine_60*grid_spacing*2
+
+#Forward slash pass
+#Flip the logic of the x direction and its much the same
+for i in range(0,grid_width+800,grid_spacing):
+	var offset = randi()%2 * grid_spacing
+	var x = i - cosine_60*offset
+	var y = sine_60*offset
+	while(y < grid_height):
+		draw_line(Vector2(x,y), Vector2(x-cosine_60*grid_spacing,y+sine_60*grid_spacing),Color(1,1,1),2)
+		x = x - cosine_60*grid_spacing*2
+		y = y + sine_60*grid_spacing*2
+```
+![alt text](https://github.com/twalford/twalford.github.io/blob/master/Hitomezashi_Triangle.png)
+
+
 # Programming with OLC (C++)
 "OLC" a.k.a `Javidx9` is the creator of a small opensource engine written in C++ called olcPixelGameEngine. I have been following along with his development of the engine and creating some projects of my own with it.
 
