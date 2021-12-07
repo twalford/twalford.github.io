@@ -28,7 +28,7 @@ for x in range(0-grid_padding, grid_width, grid_spacing):
 		draw_line(Vector2(x,y), Vector2(x,y+grid_spacing), Color(1,1,1), 2)
 ```
 
-![alt text](https://github.com/twalford/twalford.github.io/blob/master/Hitomezashi_Stitch.png)
+![Hitomezashi_Stitch](https://user-images.githubusercontent.com/20815153/145021934-f56e2805-2ea9-453d-a2f7-a24792fd8f36.png)
 And here is my attempt to generate a 3-axis version
 ```gdscript
 #Horizontal pass
@@ -101,7 +101,7 @@ for i in range(0,grid_width+800,grid_spacing):
 		x = x - cosine_60*grid_spacing*2
 		y = y + sine_60*grid_spacing*2
 ```
-![alt text](https://github.com/twalford/twalford.github.io/blob/master/Hitomezashi_Triangle.png)
+![Hitomezashi_Triangle](https://user-images.githubusercontent.com/20815153/145021804-c8f34e13-b397-4825-bf9b-d505ed02d549.png)
 
 
 # Programming with OLC (C++)
